@@ -6,13 +6,13 @@ def readme():
 
 setup(
   name='buble',
-  version='5.0.1',
-  author='Forest_gleb',
-  author_email='zykin_gleb@list.ru',
-  description='Live buble',
+  version='5.1.0',
+  author='ForestBu',
+  author_email='tvc55.admn@gmail.com',
+  description='Buble library PyPi',
   long_description=readme(),
   long_description_content_type='text/markdown',
-  url='https://github.com/oftestyonety/dist_buble',
+  url='https://github.com/ForestBu/Buble',
   packages=find_packages(),
   install_requires=['requests>=2.25.1'],
   classifiers=[
@@ -20,6 +20,6 @@ setup(
     'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent'
   ],
-  keywords='buble if else elif elseif perimeter square area while for python',
+  keywords='buble if else elif elseif perimeter square area while for python file os system pause time timer',
   python_requires='>=3.7'
 )

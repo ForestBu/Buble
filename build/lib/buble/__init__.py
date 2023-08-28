@@ -1,6 +1,6 @@
 #includes
 import os
-
+import time
 
 def perimeter(a, b = "pass"): #perimeter периметр
     if b != "pass":
@@ -50,6 +50,34 @@ def forin(condition, action, rangee): #for action - дейтвие, condition - 
             return eval(str(action))
     except:
         return "FATAL ERROR for construction or library construction"
+    
+def filewere(filename, mode1 = 'r', mode2 = 'read', mode3 = ''):
+    try:
+        dekfjhyggchdjcnd = open(filename, mode1)
+        if mode3 == '':
+            return eval("dekfjhyggchdjcnd." + mode2 + '(' + str(mode3) + ')')
+            dekfjhyggchdjcnd.close()
+        else:
+            return eval("dekfjhyggchdjcnd." + mode2 + '("' + str(mode3) + '")')
+            dekfjhyggchdjcnd.close()
+    except:
+        return "FATAL ERROR filewere construction or library construction"
+
+def times(stime, typee = 'sec'):
+    try:
+        if typee == 'sec':
+            time.sleep(stime)
+        elif typee == 'mlsec':
+            time.sleep(stime/1000)
+    except:
+        return "FATAL ERROR time construction or library construction"
+
+def pause():
+    try:
+        return eval(os.system('pause'))
+    except:
+        return "FATAL ERROR pause construction or library construction"
+
 #@
 #r
 #@

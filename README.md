@@ -1,3 +1,6 @@
+# This library is obsolete, please use libAll
+# Эта библиотека устарела, пожалуйста используйте библиотеку libAll
+# https://github.com/ForestBu/libAll
 # Buble
   
 -- includes  
